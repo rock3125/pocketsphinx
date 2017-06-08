@@ -4,9 +4,9 @@ First install the required apt dependencies
 ```
 sudo apt install pocketsphinx swig libpulse-dev
 ```
-and then continue with the pocketsphinx python wrapper
+setup your Python 3.5/3.6 environment and install the dependencies.
 ```
-pip install --upgrade pocketsphinx
+pip install -r requirements.txt
 ```
 
 ### Howto
