@@ -3,6 +3,9 @@
 import os
 from pocketsphinx import LiveSpeech, get_model_path
 
+# use this little utility to continuously convert speech from the mic
+# to text
+
 base_dir = os.path.dirname(__file__)
 
 if __name__ == '__main__':

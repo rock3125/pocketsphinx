@@ -8,6 +8,9 @@ from pocketsphinx import get_model_path
 
 base_dir = os.path.dirname(__file__)
 
+# use this util to convert a 16KHz mono wav file to text
+# including timing information
+
 if __name__ == '__main__':
 
     if len(sys.argv) == 2:
